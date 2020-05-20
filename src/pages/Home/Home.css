@@ -1,0 +1,26 @@
+
+
+div.characters-wrapper {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    /* align-items: flex-start; */
+    /* justify-items: start; */
+    /* align-content: flex-start; */
+
+    flex-wrap: wrap;
+}
+
+div.character-card-outer-wapper {
+    width: 24%;
+    margin: 8px 6px;
+
+    /* transition: 400ms;
+    z-index: 1; */
+    perspective: 500px;
+}
+
+div.character-card-outer-wapper:hover {
+    /* transform: scale(1.1); */
+    z-index: 3;
+}
